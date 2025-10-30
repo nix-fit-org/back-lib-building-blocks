@@ -77,12 +77,6 @@ jobs:
             --no-build \
             -o ./packages \
             /p:PackageVersion=${{ steps.version.outputs.version }}
-            
-          dotnet pack src/Nix.Contracts/Nix.Contracts.csproj \
-            -c Release \
-            --no-build \
-            -o ./packages \
-            /p:PackageVersion=${{ steps.version.outputs.version }}
         
       - name: Push to GitHub Packages
         if: github.event_name != 'pull_request'
