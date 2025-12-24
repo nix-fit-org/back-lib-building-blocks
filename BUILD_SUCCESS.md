@@ -5,7 +5,7 @@
 ### ✅ Структура репозитория создана
 
 ```
-C:\Mine\nix-buildingblocks\
+C:\Mine\back-lib-building-blocks\
 ├── .github/
 │   └── workflows/
 │       └── publish.yml          ✅ CI/CD для автопубликации в GitHub Packages
@@ -69,7 +69,7 @@ C:\Mine\nix-buildingblocks\
 
 Перейдите: https://github.com/new
 
-- **Repository name**: `nix-buildingblocks`
+- **Repository name**: `back-lib-building-blocks`
 - **Visibility**: Private
 - **НЕ добавляйте** README/gitignore/license
 - Create repository
@@ -77,17 +77,17 @@ C:\Mine\nix-buildingblocks\
 ### 2. Push кода (2 минуты)
 
 ```powershell
-cd C:\Mine\nix-buildingblocks
+cd C:\Mine\back-lib-building-blocks
 
 git init
 git add .
 git commit -m "Initial commit: BuildingBlocks, Messaging, Persistence, Contracts packages"
-git remote add origin https://github.com/nix-fit-fit/buildingblocks.git
+git remote add origin https://github.com/nix-fit-org/back-lib-building-blocks.git
 git branch -M main
 git push -u origin main
 ```
 
-⚠️ **ЗАМЕНИТЕ** `https://github.com/nix-fit-fit/buildingblocks.git` на ваш реальный URL!
+⚠️ **ЗАМЕНИТЕ** `https://github.com/nix-fit-org/back-lib-building-blocks.git` на ваш реальный URL!
 
 ### 3. Дождитесь автопубликации (3 минуты)
 

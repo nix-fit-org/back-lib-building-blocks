@@ -253,7 +253,7 @@ public sealed record CourseCreatedEventV2 : IntegrationEventBase
 
 ## 📞 Поддержка
 
-Вопросы и предложения: https://github.com/nix-fit/building-blocks/issues
+Вопросы и предложения: https://github.com/nix-fit-org/back-lib-building-blocks/issues
 
 ## 📄 Лицензия
 

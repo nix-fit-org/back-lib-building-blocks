@@ -1,0 +1,3 @@
+buildDotnetLibrary(
+    dotnetVersion: '9',
+)
