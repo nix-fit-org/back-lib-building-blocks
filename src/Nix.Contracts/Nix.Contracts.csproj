@@ -7,12 +7,12 @@
     
     <!-- NuGet Package Metadata -->
     <PackageId>FitCourse.Nix.Contracts</PackageId>
-    <Version>1.0.0</Version>
+    <VersionPrefix>1.0.0</VersionPrefix>
     <Authors>Nix Team</Authors>
     <Company>Nix</Company>
     <Description>Shared contracts для integration events между микросервисами FitCourse</Description>
     <PackageTags>fitcourse;nix;contracts;integration-events;messaging;microservices</PackageTags>
-    <RepositoryUrl>https://github.com/nix-fit/building-blocks</RepositoryUrl>
+    <RepositoryUrl>https://github.com/nix-fit-org/back-lib-building-blocks</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     
@@ -28,8 +28,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- В NuGet пакете это будет PackageReference -->
-    <PackageReference Include="FitCourse.Nix.BuildingBlocks" Condition="'$(Configuration)' == 'Release'" />
+    <!-- В NuGet пакете это будет ProjectReference -->
+    <ProjectReference Include="..\Nix.BuildingBlocks\Nix.BuildingBlocks.csproj" Condition="'$(Configuration)' == 'Release'" />
     
     <!-- Для локальной разработки используем ProjectReference -->
     <ProjectReference Include="..\Nix.BuildingBlocks\Nix.BuildingBlocks.csproj" Condition="'$(Configuration)' != 'Release'" />

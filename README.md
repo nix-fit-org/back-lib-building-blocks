@@ -5,7 +5,7 @@
 ## 📦 Пакеты
 
 ### FitCourse.Nix.BuildingBlocks
-[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.BuildingBlocks.svg)](https://github.com/nix-fit-fit/buildingblocks/packages)
+[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.BuildingBlocks.svg)](https://github.com/nix-fit-org/buildingblocks/packages)
 
 **Базовые DDD building blocks:**
 - `AggregateRoot`, `BaseEntity` — базовые классы для сущностей
@@ -24,7 +24,7 @@ dotnet add package FitCourse.Nix.BuildingBlocks
 ---
 
 ### FitCourse.Nix.Messaging  
-[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Messaging.svg)](https://github.com/nix-fit-fit/buildingblocks/packages)
+[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Messaging.svg)](https://github.com/nix-fit-org/buildingblocks/packages)
 
 **Messaging abstractions для асинхронного взаимодействия:**
 - `IEventBus` — абстракция шины событий
@@ -61,7 +61,7 @@ public class MyService
 ---
 
 ### FitCourse.Nix.Persistence
-[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Persistence.svg)](https://github.com/nix-fit-fit/buildingblocks/packages)
+[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Persistence.svg)](https://github.com/nix-fit-org/buildingblocks/packages)
 
 **Persistence patterns для работы с базой данных:**
 - `IRepository<T>` — generic repository
@@ -96,7 +96,7 @@ public class MyService
 ---
 
 ### FitCourse.Nix.Contracts
-[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Contracts.svg)](https://github.com/nix-fit-fit/buildingblocks/packages)
+[![NuGet](https://img.shields.io/nuget/v/FitCourse.Nix.Contracts.svg)](https://github.com/nix-fit-org/buildingblocks/packages)
 
 **Контракты интеграционных событий для межсервисного взаимодействия:**
 
@@ -252,8 +252,8 @@ GitHub Actions автоматически опубликует версию `1.1
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/nix-fit-fit/buildingblocks.git
-cd nix-buildingblocks
+git clone https://github.com/nix-fit-org/back-lib-building-blocks.git
+cd back-lib-building-blocks
 
 # Восстановить зависимости
 dotnet restore
@@ -272,7 +272,7 @@ dotnet add package FitCourse.Nix.BuildingBlocks --source local
 ### Структура проекта
 
 ```
-nix-buildingblocks/
+back-lib-building-blocks/
 ├── .github/
 │   └── workflows/
 │       └── publish.yml          # CI/CD для автопубликации
@@ -330,7 +330,7 @@ Outbox паттерн для гарантированной доставки с�
 ## 📞 Контакты
 
 - GitHub: [Nix Organization](https://github.com/nix-fit)
-- Issues: [Report Bug or Request Feature](https://github.com/nix-fit-fit/buildingblocks/issues)
+- Issues: [Report Bug or Request Feature](https://github.com/nix-fit-org/buildingblocks/issues)
 
 ---
 

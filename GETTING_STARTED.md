@@ -6,10 +6,10 @@
 
 ## ✅ Что уже готово
 
-В папке `C:\Mine\nix-buildingblocks\` подготовлена полная структура:
+В папке `C:\Mine\back-lib-building-blocks\` подготовлена полная структура:
 
 ```
-nix-buildingblocks/
+back-lib-building-blocks/
 ├── .github/workflows/publish.yml    ✅ CI/CD настроен
 ├── .gitignore                       ✅ Git ignore готов
 ├── Directory.Packages.props         ✅ Версии пакетов
@@ -33,7 +33,7 @@ nix-buildingblocks/
    https://github.com/new
 
 2. Заполните:
-   - **Repository name**: `nix-buildingblocks`
+   - **Repository name**: `back-lib-building-blocks`
    - **Description**: `Shared building blocks and contracts for FitCourse microservices`
    - **Visibility**: `Private` (рекомендуется) или `Public`
    - **Initialize this repository**: ❌ **НЕ ДОБАВЛЯЙТЕ** README, .gitignore, license
@@ -42,7 +42,7 @@ nix-buildingblocks/
 
 4. **Скопируйте URL репозитория**, например:
    ```
-   https://github.com/nix-fit-fit/buildingblocks.git
+   https://github.com/nix-fit-org/back-lib-building-blocks.git
    ```
 
 ---
@@ -53,7 +53,7 @@ nix-buildingblocks/
 
 ```powershell
 # Перейдите в папку
-cd C:\Mine\nix-buildingblocks
+cd C:\Mine\back-lib-building-blocks
 
 # Инициализируйте Git
 git init
@@ -65,7 +65,7 @@ git add .
 git commit -m "Initial commit: BuildingBlocks, Messaging, Persistence, Contracts"
 
 # Укажите URL удаленного репозитория (ЗАМЕНИТЕ на ваш URL!)
-git remote add origin https://github.com/nix-fit-fit/buildingblocks.git
+git remote add origin https://github.com/nix-fit-org/back-lib-building-blocks.git
 
 # Переименуйте ветку в main (если нужно)
 git branch -M main
@@ -74,7 +74,7 @@ git branch -M main
 git push -u origin main
 ```
 
-**⚠️ ВАЖНО:** Замените `https://github.com/nix-fit-fit/buildingblocks.git` на ваш реальный URL!
+**⚠️ ВАЖНО:** Замените `https://github.com/nix-fit-org/back-lib-building-blocks.git` на ваш реальный URL!
 
 ---
 

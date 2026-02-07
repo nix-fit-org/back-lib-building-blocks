@@ -46,7 +46,7 @@
 ```
 GitHub Organization: Nix
 │
-├── nix-buildingblocks           ✅ ГОТОВО
+├── back-lib-building-blocks           ✅ ГОТОВО
 │   └── src/
 │       ├── Nix.BuildingBlocks/
 │       ├── Nix.Messaging/
@@ -85,7 +85,7 @@ GitHub Organization: Nix
 **Статус:** ✅ Готово  
 **Время:** ~2 часа  
 **Результат:** 
-- Репозиторий `nix-buildingblocks` создан
+- Репозиторий `back-lib-building-blocks` создан
 - 4 NuGet пакета опубликованы на GitHub Packages
 - Документация и CI/CD настроены
 

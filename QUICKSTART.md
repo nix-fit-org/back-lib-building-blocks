@@ -3,21 +3,21 @@
 ## Шаг 1: Создайте репозиторий на GitHub (2 мин)
 
 1. Перейдите: https://github.com/new
-2. Repository name: `nix-buildingblocks`
+2. Repository name: `back-lib-building-blocks`
 3. Private
 4. **НЕ ДОБАВЛЯЙТЕ** README/gitignore/license
 5. Create repository
-6. Скопируйте URL: `https://github.com/nix-fit-fit/buildingblocks.git`
+6. Скопируйте URL: `https://github.com/nix-fit-org/back-lib-building-blocks.git`
 
 ## Шаг 2: Push кода (2 мин)
 
 ```powershell
-cd C:\Mine\nix-buildingblocks
+cd C:\Mine\back-lib-building-blocks
 
 git init
 git add .
 git commit -m "Initial commit: BuildingBlocks packages"
-git remote add origin https://github.com/nix-fit-fit/buildingblocks.git
+git remote add origin https://github.com/nix-fit-org/back-lib-building-blocks.git
 git branch -M main
 git push -u origin main
 ```
